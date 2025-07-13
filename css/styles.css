@@ -840,3 +840,155 @@ input[type="checkbox"]:checked + label .check-mark {
         width: 165px;
     }
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+
+    .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .header .logo {
+        margin: 16px 120px 16px 0;
+    }
+
+    .hero-banner {
+        max-width: 768px;
+        height: 436px;
+        padding: 112px 0;
+    }
+
+    .container {
+        width: 768px;
+        padding: 0 16px;
+        align-items: center;
+    }
+
+    .hero-banner .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .solutions {
+        font-size:56px;
+        max-width: 496px;
+        margin: 0 36px 36px;
+    }
+
+    .div-values-svg {
+        display: none;
+    }
+
+    .values {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .values-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+    }
+
+    .values-list-element {
+        width: calc((100% - 24px)/2);
+    }
+
+    .values .part-name {
+        font-size: 36px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 8px;
+    }
+
+    .people {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        row-gap: 64px;
+    }
+
+    .people-role {
+        padding: 32px 16px;
+    }
+
+    .team .part {
+        width: 264px;
+    }
+
+    .team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .portfolio {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+        justify-content: center;
+    }
+
+    .portfolio-list .part {
+        width: 288px;  
+    }
+
+    .footer {
+        padding: 96px 0;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .footer-info {
+        margin-right: 0;
+    }
+
+    .lower-logo {
+        margin-right: 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .footer-social-media {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-paragraf-name {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .footer-form {
+        padding-right: 43px;
+    }
+
+    /* .footer-field-form {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+    } */
+
+    .button-footer-form {
+        width: 165px;
+    }
+}
