@@ -839,6 +839,19 @@ input[type="checkbox"]:checked + label .check-mark {
     .button-footer-form {
         width: 165px;
     }
+
+    .modal {
+        width: 288px;
+    }
+
+    .privacy-label {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .label-privacy-text {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px){
