@@ -703,3 +703,140 @@ input[type="checkbox"]:checked + label .check-mark {
     border: solid 1px white;
     border-width: 0 3px 3px 0; */
 }
+
+@media screen and (max-width: 320px) {
+    .site-nav {
+        display: none;
+    }
+
+    .address {
+        display: none;
+    }
+
+    .header .logo {
+        margin: 16px 0;;
+    }
+
+    .hero-banner {
+        max-width: 320px;
+        height: 432px;
+        padding: 72px 0;
+    }
+
+    .container {
+        width: 320px;
+        padding: 0 16px;
+    }
+
+    .solutions {
+        font-size:36px;
+        max-width: 216px;
+        margin: 0 36px 72px;
+    }
+
+    .div-values-svg {
+        display: none;
+    }
+
+    .values {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .values-list {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    .values-list-element {
+        width: 288px;
+    }
+
+    .values .part-name {
+        font-size: 36px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 8px;
+    }
+
+    .people {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 72px;
+    }
+
+    .people-role {
+        padding: 32px 16px;
+    }
+
+    .team .part {
+    width: 264px;
+    }
+
+    .team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .portfolio {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .portfolio-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        row-gap: 48px;
+        align-items: center;
+    }
+
+    .portfolio-list .part {
+        width: 288px;  
+    }
+
+    .footer {
+        padding: 96px 0;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+    }
+    
+    .footer-info {
+        margin-right: 0;
+    }
+
+    .lower-logo {
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-social-media {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-paragraf-name {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-field-form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .button-footer-form {
+        width: 165px;
+    }
+}
